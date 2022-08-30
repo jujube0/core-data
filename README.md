@@ -151,7 +151,7 @@ class ColorAttributeTransformer: NSSecureUnarchiveFromDataTransformer {
 2. `register` 는 transformer class의 이름 (key)과 transformer instance를 key-value로 매핑해서 저장한다.
 3. AppDelegate 의 `application(_:didFinishLaunchingWithOptions:)` 내에서 `register` 를 호출한다. 사실 application이 core data stack을 구성하기 전이라면 어디서든 호출해도 상관 없다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8b4242c0-e90d-41e5-83a1-57975bd5bde2/Untitled.png)
+<img src="https://velog.velcdn.com/images/jujube0/post/22f35e0e-23dc-4643-9d9a-699ae47b370a/image.png">
 
 ```swift
 // Transformable 이용하기 -> 그냥 그대로 저장하면 됨
@@ -171,7 +171,7 @@ xcdatamodeld 파일에서 entity의 inspector를 이용해서 xcode가 manually/
 
 해당 설정은 BowTie entity를 모델에 추가한 후, 첫 컴파일 전에 설정해야한다. 컴파일 후에 설정을 하게 되면 두 가지 버전의 managed object subclass 버전이 생성된다. ㅠ
 
-**Editor\Create NSManagedObject Subclass..**를 선택한 후 원하는 data model을 선택하자. create을 누르면 두 개의 swift file이 추가된다. 
+**Editor\Create NSManagedObject Subclass**를 선택한 후 원하는 data model을 선택하자. create을 누르면 두 개의 swift file이 추가된다. 
 
 - BowTie+CoreDataProperties.swift
     - the properties that correspond to the BowTie attributes in your data model
