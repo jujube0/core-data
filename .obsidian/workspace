@@ -1,0 +1,138 @@
+{
+  "main": {
+    "id": "fce080708afefa72",
+    "type": "split",
+    "children": [
+      {
+        "id": "917a71a480e6286e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "02-managed-object-subclasses.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "545e92a44661ae37",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e0f62ecd6de7b11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e31a6ce1da74a5ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ec200a44a7713fd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ba37679d07fe4464",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b58f6cdbfe938a24",
+    "type": "split",
+    "children": [
+      {
+        "id": "1cb4dc621bf118e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89119859dc6f8070",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02-managed-object-subclasses.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "527cb37690d7cb83",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02-managed-object-subclasses.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5115275c2917b442",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "708b229e8dbca06f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02-managed-object-subclasses.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "917a71a480e6286e",
+  "lastOpenFiles": [
+    "01-first-core-data.md",
+    "README.md",
+    "02-managed-object-subclasses.md",
+    "03-core-data-stack.md"
+  ]
+}
